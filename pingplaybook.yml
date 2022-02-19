@@ -1,0 +1,7 @@
+---
+- name: Ping server play
+  hosts: all
+  become: true
+
+  tasks:
+    - action: ping
